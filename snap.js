@@ -259,7 +259,7 @@
                 },
                 startDrag: function(e) {
                     // No drag on ignored elements
-                    var target = e.target ? e.target : e.srcElement,
+                    var target = e.target ? e.target : e.originalEvent.srcElement,
                         ignoreParent = utils.parentUntil(target, 'data-snap-ignore');
                     
                     if (ignoreParent) {
