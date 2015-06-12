@@ -5,6 +5,7 @@
  * Released under the MIT Licence
  * http://opensource.org/licenses/MIT
  *
+ * Github:  https://github.com/ecentria/Snap.js/ (fork)
  * Github:  http://github.com/jakiestfu/Snap.js/
  * Version: 1.9.3
  */
